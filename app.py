@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 
 import sys, getopt
-from docxstache import docxstache
+from docxstache.docxstache import docxstache
 
 import json
 
