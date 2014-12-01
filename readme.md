@@ -3,14 +3,14 @@
 A purer implementation of `pystache` for word documents. 
 
 Start with a template...
-![]('./docs/before.png')
+![]('/docs/before.png')
 
 Add a little json...
 
-![]('./docs/json.png')
+![]('docs/json.png')
 
 Get beautiful results...
-![]('./docs/after.png')
+![]('docs/after.png')
 
 # Usage
 
