@@ -8,6 +8,7 @@ setup(
     packages=['docxstache'],
     scripts=[],
     url='http://pypi.python.org/pypi/docxstache/',
+    download_url="https://github.com/vzvenyach/docxstache2/tarball/0.0.1",
     license='LICENSE.txt',
     description='Mustache for docx',
     long_description=open('readme.md').read(),
