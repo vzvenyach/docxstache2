@@ -32,6 +32,9 @@ def replace_docx(filepath, newfilepath, newfile):
 
 def docxstache(filename, kp, newfile):
 	filexml = read_docx(filename)
+	print filexml
 	outxml = pystache.render(filexml.decode('utf-8'), kp, decode_errors="ignore")
+	print "--------------------------------"
+	print outxml
 	replace_docx(filename, newfile, outxml.encode('utf-8'))
 	return True
